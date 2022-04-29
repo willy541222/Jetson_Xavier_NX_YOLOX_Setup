@@ -1,5 +1,7 @@
 #! /bin/bash
 
+cd ..
+
 echo "Update..."
 
 sudo apt-get update
