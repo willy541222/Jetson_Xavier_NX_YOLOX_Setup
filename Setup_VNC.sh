@@ -2,6 +2,10 @@
 
 sudo apt update
 sudo apt install vino
+
+sudo chmod -R 777 /usr
+sudo chmod -R 777 /etc
+
 sudo ln -s ../../vino-server.service   /usr/lib/systemd/user/graphical-session.target.wants
 
 sudo cp org.gnome.Vino.gschema.xml /usr/share/glib-2.0/schemas/org.gnome.Vino.gschema.xml
