@@ -15,7 +15,9 @@ export BUILD_VERSION=0.8.1
 sudo python3 setup.py install --user
 sudo pip3 uninstall pillow
 sudo pip3 install pillow==8.4.0
-cd ..
+cd ../
+
+sudo chmod -R 777 ~/.local
 
 echo "Pytorch 1.7.0 
       Torchvision v0.8.1
