@@ -1,5 +1,7 @@
 #!/bin/bash
 
+sudo apt-get install curl
+
 cd ..
 curl -s https://install.zerotier.com | sudo bash
 
