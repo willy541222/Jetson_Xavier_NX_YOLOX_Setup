@@ -20,5 +20,7 @@ echo "export OPENBLAS_CORETYPE=ARMV8" >> ~/.bashrc
 
 source ~/.bashrc
 
+nvcc -V
+
 echo "Basic environments setup complete."
 
